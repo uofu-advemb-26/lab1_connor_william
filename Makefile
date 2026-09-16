@@ -23,7 +23,7 @@ firmware.elf: $(OBJS)
 	$(AS) $< -o $@
 
 clean:
-	rm -f *.i *.s *.o hello.txt
+	rm -f *.elf *.i *.s *.o hello.txt
 
 hello.txt:
 	echo "hello world!" > hello.txt

@@ -1,4 +1,6 @@
-int main(void) {
-    while(1);
-    return 1;
+int second(void) {
+    while(1) {
+        int x = 1 + 2;
+    }
+    return -1;
 }
